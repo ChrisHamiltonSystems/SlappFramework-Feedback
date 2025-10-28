@@ -11,6 +11,13 @@ SlappFramework is a constraint-driven, SQL-centric web framework for building bu
 
 ## Quick Start (3 Steps)
 
+### 0. Install the template, create your project: 
+```bash
+dotnet new install SlappFramework.Template
+
+dotnet new slappframework -n MyDataApp
+```
+
 ### 1. Configure Database
 Update `appsettings.json` with your SQL Server connection string:
 
